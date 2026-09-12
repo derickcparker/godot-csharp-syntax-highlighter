@@ -1,0 +1,23 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="C# Syntax Highlighter (Demo)"
+config/description="Demo project for the C# Syntax Highlighter Godot addon. Open demo/SampleScript.cs in the built-in script editor to see it in action."
+config/features=PackedStringArray("4.7", "C#", "Forward Plus")
+
+[dotnet]
+
+project/assembly_name="CSharpSyntaxHighlighterDemo"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/csharp_syntax_highlighter/plugin.cfg")
