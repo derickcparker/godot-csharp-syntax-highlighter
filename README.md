@@ -5,7 +5,7 @@ C# — `.cs` files open in mostly one color. This addon fixes that with a
 lightweight, dependency-free tokenizer that colors keywords, types, strings,
 numbers, and comments, right inside Godot's own editor.
 
-![Screenshot of the highlighter running on a C# file inside Godot](demo/screenshot.png)
+![Screenshot of the highlighter running on a C# file inside Godot](screenshots/screenshot.png)
 
 ## Features
 
